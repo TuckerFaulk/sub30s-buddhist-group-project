@@ -128,3 +128,31 @@ header a {
     position: relative;
     top: 75px;
 }
+
+/* Footer */
+
+footer {
+    height: 75px;
+}
+
+footer > p {
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+}
+
+.social-networks {
+    text-align: right;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10px;
+    /* color: #3a3a3a; */
+    float: right;
+}
