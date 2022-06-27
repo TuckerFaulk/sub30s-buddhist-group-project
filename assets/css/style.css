@@ -4,10 +4,25 @@
     border: none;
 }
 
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #3a3a3a;
+}
+
 /* Header - Logo and Nav */
 
 header {
     height: 75px;
+    position: fixed;
+    background-color: #E8E8E8;
+    width: 100%;
+    z-index: 1;
 }
 
 #logo {
@@ -146,6 +161,7 @@ header a {
 
 footer {
     height: 75px;
+    background-color: #E8E8E8;
 }
 
 footer > p {
@@ -166,6 +182,6 @@ footer > p {
     font-size: 160%;
     margin: 1%;
     padding: 10px;
-    /* color: #3a3a3a; */
+    color: #3a3a3a;
     float: right;
 }
