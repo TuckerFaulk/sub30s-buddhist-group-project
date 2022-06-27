@@ -76,3 +76,55 @@ header a {
     overflow: hidden;
 }
 
+/* What we do? Section */
+
+#what-we-do {
+    background: url(../images/buddha-hero-image.jpg) no-repeat center left;
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#what-we-do h2 {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    position: relative;
+    top:10px;
+
+    background-color: rgba(220,220,220,0.7);
+}
+
+.left-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    float: left;
+    text-align: center;
+
+    position: relative;
+    left: 50px;
+    top: 75px;
+}
+
+.right-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    float: right;
+    text-align: center;
+
+    position: relative;
+    right: 50px;
+}
+
+.center-about {
+    background-color: rgba(220,220,220,0.7);
+    padding: 5px;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+
+    position: relative;
+    top: 75px;
+}
