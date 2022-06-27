@@ -29,3 +29,14 @@ header a {
     list-style-type: none;
     margin-right: 20px;
 }
+
+/* Hero Image */
+
+#hero-outer {
+    height: 300px;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+}
