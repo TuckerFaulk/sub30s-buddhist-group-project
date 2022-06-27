@@ -33,10 +33,30 @@ header a {
 /* Hero Image */
 
 #hero-outer {
-    height: 300px;
+    height: 600px;
 }
 
 #hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
+}
+
+/* Information Section */
+
+.information {
+    height: 450px;
+}
+
+.text-left {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.img-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    overflow: hidden;
 }
