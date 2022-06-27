@@ -192,3 +192,20 @@ footer > p {
     color: #3a3a3a;
     float: right;
 }
+
+/* Buddhism and Meditation Page */
+
+.text-left-buddhism {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.text-right-buddhism {
+    width: 45%;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+    margin-top: 100px;
+}
