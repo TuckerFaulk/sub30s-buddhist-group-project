@@ -41,7 +41,7 @@ header a {
     width: 100%;
 }
 
-/* Information Section */
+/* Information Tiles */
 
 .information {
     height: 450px;
@@ -63,14 +63,16 @@ header a {
 
 .text-right {
     width: 45%;
-    float: left;
-    margin-left: 50px;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
     margin-top: 150px;
 }
 
 .img-left {
     height: 100%;
     width: 50%;
-    float: right;
+    float: left;
     overflow: hidden;
 }
+
