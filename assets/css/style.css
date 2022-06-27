@@ -60,3 +60,17 @@ header a {
     float: right;
     overflow: hidden;
 }
+
+.text-right {
+    width: 45%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.img-left {
+    height: 100%;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
