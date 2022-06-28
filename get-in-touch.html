@@ -33,11 +33,17 @@
         </div>
     </header>
 
-    <section class="form-outer">
-        <div class="text-left-form">
+    <section class="form-section">
+        <Form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
             <h2>Get in Touch</h2>
-            
-        </div>
+            <label for="fname">First Name:</label>
+            <input type="text" name="first-name" class="text-input" required>
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email-address" class="text-input" required>
+            <br>
+            <input type="submit" value="Send" id="send-button">
+        </Form>
         <img src="assets/images/stack-of-stones.jpg" alt="Stack of stones." class="img-right-form">
     </section>
 
