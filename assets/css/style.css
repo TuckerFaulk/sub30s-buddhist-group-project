@@ -92,7 +92,7 @@ header a {
     margin-top: 150px;
 }
 
-.img-right {
+.img-right, .img-right-buddhism {
     height: 100%;
     width: 50%;
     float: right;
@@ -107,7 +107,7 @@ header a {
     margin-top: 150px;
 }
 
-.img-left {
+.img-left, .img-left-buddhism {
     height: 100%;
     width: 50%;
     float: left;
@@ -198,18 +198,18 @@ footer > p {
 
 /* Buddhism and Meditation Page */
 
-.information-buddhism {
+.information-buddhism, .information-buddhism-small {
     height: 450px;
 }
 
-.text-left-buddhism {
+.text-left-buddhism, .text-left-buddhism-small {
     width: 45%;
     float: left;
     margin-left: 50px;
     margin-top: 25px;
 }
 
-.text-right-buddhism {
+.text-right-buddhism, .text-right-buddhism-small {
     width: 45%;
     text-align: right;
     float: right;
@@ -268,20 +268,27 @@ footer > p {
 
 @media screen and (max-width: 1250px) {
 
-    .information-buddhism {
-        height: 620px;
+    .information-buddhism, .information-buddhism-small {
+        height: 720px;
     }
 
-    .text-left-buddhism, .text-right-buddhism {
+    .text-left-buddhism, .text-right-buddhism, .text-left-buddhism-small, .text-right-buddhism-small {
         height: 300px;
         width: 90%;
         margin: 15px 5% 5px 5%;
         text-align: center;
     }
 
+    .img-right-buddhism, .img-left-buddhism {
+        height: 400px;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
 }
 
-/* For smaller screen size from 1000px wide and down*/
+/* For medium to small screen size from 1000px wide and down*/
 
 @media screen and (max-width: 1000px) {
 
@@ -324,7 +331,7 @@ footer > p {
         height: 420px;
     }
     
-    .text-left, .text-right, .text-left-buddhism, .text-right-buddhism {
+    .text-left, .text-right {
         height: 100px;
         width: 90%;
         margin: 15px 5% 5px 5%;
@@ -379,15 +386,12 @@ footer > p {
         margin: 0 auto;
     }
 
-    .information-buddhism {
-        height: 720px;
+    .information-buddhism, .information-buddhism-small {
+        height: 840px;
     }
 
-    .text-left-buddhism, .text-right-buddhism {
-        height: 400px;
-        width: 90%;
-        margin: 15px 5% 5px 5%;
-        text-align: center;
+    .text-left-buddhism, .text-right-buddhism, .text-left-buddhism-small, .text-right-buddhism-small {
+        height: 420px;
     }
 
     .img-right-form {
@@ -399,3 +403,24 @@ footer > p {
 
 }
 
+/* For small screen size from 700px wide and down*/
+
+@media screen and (max-width: 700px) {
+
+    .information-buddhism {
+        height: 1020px;
+    }
+
+    .text-left-buddhism, .text-right-buddhism {
+        height: 700px;
+    }
+
+    .information-buddhism-small {
+        height: 740px;
+    }
+
+    .img-right-buddhism, .img-left-buddhism {
+        height: 300px;
+    }
+
+}
