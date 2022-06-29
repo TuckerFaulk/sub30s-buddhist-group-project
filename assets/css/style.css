@@ -198,6 +198,10 @@ footer > p {
 
 /* Buddhism and Meditation Page */
 
+.information-buddhism {
+    height: 450px;
+}
+
 .text-left-buddhism {
     width: 45%;
     float: left;
@@ -260,9 +264,26 @@ footer > p {
 
 /*  media queries */
 
-/* For smaller screen size from 950px wide and down*/
+/* For larger to medium screen size from 1250px wide and down*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1250px) {
+
+    .information-buddhism {
+        height: 620px;
+    }
+
+    .text-left-buddhism, .text-right-buddhism {
+        height: 300px;
+        width: 90%;
+        margin: 15px 5% 5px 5%;
+        text-align: center;
+    }
+
+}
+
+/* For smaller screen size from 1000px wide and down*/
+
+@media screen and (max-width: 1000px) {
 
     header {
         height: 100px;
@@ -272,12 +293,18 @@ footer > p {
         height: 100px;
     }
 
+    #logo {
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+
     #menu, #logo {
         line-height: 50px;
     }
 
     #menu li {
-        margin-right: 15px;
+        margin-right: 10px;
     }
 
     #hero-outer {
@@ -297,14 +324,14 @@ footer > p {
         height: 420px;
     }
     
-    .text-left, .text-right {
+    .text-left, .text-right, .text-left-buddhism, .text-right-buddhism {
         height: 100px;
-        width: 100%;
-        margin: 15px 0 5px 0;
+        width: 90%;
+        margin: 15px 5% 5px 5%;
         text-align: center;
     }
     
-    .img-right, .img-left {
+    .img-right, .img-left, .img-right-form {
         height: 300px;
         width: 100%;
         float: left;
@@ -312,11 +339,13 @@ footer > p {
     }
 
     #what-we-do {
-        height: 450px;
+        height: 400px;
     }
 
     #what-we-do h2 {
         width: 50%;
+        position: relative;
+        top: 20px;
     }
 
     .left-about, .center-about, .right-about {
@@ -333,6 +362,14 @@ footer > p {
         height: 100px;
     }
 
+    footer > p {
+        margin-left: 0;
+        margin-top: 0;
+        padding-top: 30px;
+        float: none;
+        text-align: center;
+    }
+
     .social-networks {
         text-align: center;
     }
@@ -342,6 +379,23 @@ footer > p {
         margin: 0 auto;
     }
 
+    .information-buddhism {
+        height: 720px;
+    }
+
+    .text-left-buddhism, .text-right-buddhism {
+        height: 400px;
+        width: 90%;
+        margin: 15px 5% 5px 5%;
+        text-align: center;
+    }
+
+    .img-right-form {
+        height: 100%;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
 }
 
-/* For medium screen sizes from 950px wide and down */
