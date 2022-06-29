@@ -52,18 +52,21 @@ A Hero Image is used on the Home Page (only) under the Header. The text over the
 
 **Main Section**
 
-This page provides a brief explanation about 1) What the Aurora Borealis is 2) Where the best places are to see it and 3) When the best time to see it is
+This page provides all the information a user will need about the group. Each of the questions a user may have about the group have been broken into sections to make it easy to read. This section has been kept simple and to the point.
 
-Whilst the explanations are relatively brief, there is still a paragraph break in each section to make it easier to read. Every question (and answer) has been separated with its own textbox for easy reading and without overwhelming the user with one large paragraph of text. 
+This section has been placed first to provide some context about the page and what the group is about.
 
 ![Who we are?](assets/readme-images/who-we-are-section.jpg)
 
+This section has been added to provide the user with information on what we do during group sessions. Headers have been used to simply state what takes place with a small explaination underneath.
 
 ![What we do?](assets/readme-images/what-we-do-section.jpg)
 
+This section details the times that the group meets.
 
 ![When we meet?](assets/readme-images/when-we-meet-section.jpg)
 
+This sections details where the group meets. A postal address has been detailed, with a Google Maps tile for a visual for the location.
 
 ![Where to find us?](assets/readme-images/where-to-find-us-section.jpg)
 
@@ -75,34 +78,27 @@ The note regarding this site being for educational purposes only has been includ
 
 ![Footer](assets/readme-images/footer.jpg)
 
----
-
 ### Buddhism and Meditation
 
+Although the home page provides details of the group, I thought it was important to detail some information about Buddhism which is studied. Screenshots of these sections have been provided below:
 
+![What is Buddhism?](assets/readme-images/what-is-buddhism.jpg)
 
-<!-- To provide some less scientific/more fun information for the user, I decided to add some "fun facts" about the Aurora on this page. 
+![Who was the Buddha?](assets/readme-images/who-was-the-buddha.jpg)
 
-As this page does not contain any visuals I decided to add some atmospheric, subject-appropriate music instead, whilst reading more about the Aurora. The Track is called ‘Northern Lights’ and has been written specifically for this project. -->
+![What is Meditation?](assets/readme-images/what-is-meditation.jpg)
 
-<!-- ![Sound cloud audio](readme-assets/sound-cloud.jpg) -->
+I also want to included some information on the meditations which take place during the group sessions. Instead of image tiles for these sections, I thought it would be better to include videos of the Meditations for users to use for practice. These videos have not been set to autoplay and controls have been provided for good user experience. Screenshots of these sections have been provided below:
 
-**Metta Bhavana and The Mindfulness of Breathing Meditation**
+![What is Metta Bhavana Meditation?](assets/readme-images/what-is-metta-bhavana.jpg)
 
-
-<!-- ![Live cam link section](readme-assets/live-cams.jpg) -->
+![What is the Mindfulness of Breathing Meditation?](assets/readme-images/what-is-mindfulness-of-breathing.jpg)
 
 ### Get in Touch 
 
 This page allows the user an opportunity to get in contact with the group and find out more information.
 
 ![Contact form](assets/readme-images/get-in-touch.jpg)
-
-<!-- ### Thank you -->
-
-<!-- Upon submitting the form the user will be redirected to a new page, which will thank them for signing up and that if they left a comment someone will respond within 48 hrs. No user information will be stored.
-
-![Thank you page](readme-assets/thank-you.jpg) -->
 
 ## Future Features
 
@@ -123,23 +119,25 @@ Buddhism and Meditation: Media Queries Section
 
 Detail other issues encountered and how I overcame them
 
+- Design was supposed to be simple to reduce on css coding.
+
 ## Validator Testing
 
-- HTML: No errors were returned when passing through the official W3C validator
+- HTML: No errors were returned when passing through the official W3C validator:
 
-<!-- ![W3C Validator](readme-assets/w3c-validator.jpg) -->
+![W3C HTML Validator](assets/readme-images/html-checker.jpg)
 
-- CSS: No errors were found when passing through the official (Jigsaw) validator
+- CSS: No errors were found when passing through the official (Jigsaw) validator:
 
-<!-- ![W3C CSS Validator](readme-assets/w3c-css-validator.jpg) -->
+![W3C CSS Validator](assets/readme-images/css-checker.jpg)
 
-- Lighthouse (Accessibility Audit): The page achieved great performance:
+- Lighthouse (Accessibility Audit): The page achieved great accessibility performance:
 
-<!-- ![Lighthouse mobile report](readme-assets/lighthouse-mobile-report.jpg) -->
+![Lighthouse Accessibility Audit](assets/readme-images/lighthouse-checker.jpg)
 
 ### Unfixed Bugs
 
-I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large taking away from the design of the page.
+<!-- I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large taking away from the design of the page. -->
 
 I plan to fix this in the future.
 
@@ -147,9 +145,11 @@ I plan to fix this in the future.
 
 - Github: Store repositry
 - Gitpod: Create the html and css files
-- Google Fonts: Font-family '#'
+- Google Fonts: Font-family 'Raleway' and 'Ubuntu'
+- Google Chrome Dev Tools: To aid the intial styling for media queries and testing at various screen sizes
+- Microsoft Edge: Site testing on an alternitive browser
 - Font Awesome: Social media icons
-- Am I Responsive:
+- Am I Responsive: Screenshots of the final project for the README file
 
 ## Deployment
 
@@ -164,12 +164,14 @@ The live link for the site can be found here - https://tuckerfaulk.github.io/sub
 
 # Credits
 
-<!-- I faced many challenges during this project and before I go into further details I wanted to thank the Slack community for all their great support and my Mentor [Martina](https://www.linkedin.com/in/martinaterlevic/) for her amazing support and helpful tips to take this project off the ground. 😃 -->
+I have really enjoyed the Code Institue course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I intially thought.
 
 As a starting point I looked at the Coders Coffee and Love Running projects.
 
 - From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
 - From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
+
+
 
 ### Content
 
