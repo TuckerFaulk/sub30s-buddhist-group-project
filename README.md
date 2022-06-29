@@ -33,6 +33,11 @@ I selected both the text and background colors to keep the website simple. I wan
 
 ## Existing Features:
 
+### Languages Used
+
+- HTML5
+- CSS3
+
 ### Navigation
 
 A three navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons change with smaller screens -- these are as such located under the logo due to the smaller screen space available.
@@ -77,7 +82,7 @@ The note regarding this site being for educational purposes only has been includ
 
 ---
 
-## Buddhism and Meditation
+### Buddhism and Meditation
 
 
 
@@ -92,7 +97,7 @@ As this page does not contain any visuals I decided to add some atmospheric, sub
 
 <!-- ![Live cam link section](readme-assets/live-cams.jpg) -->
 
-## Get in Contact 
+### Get in Contact 
 
 This page allows the user an opportunity to get in contact with the group and find out more information.
 
@@ -143,16 +148,11 @@ I have found that the spacing below some of the text sections of the 'Buddhism &
 
 I plan to fix this in the future.
 
-### Languages Used
-
-- HTML5
-- CSS3
-
 ### Libraries & Programs used:
 
 - Github: Store repositry
 - Gitpod: Create the html and css files
-- Google Fonts: Font-family 'Roboto Flex'
+- Google Fonts: Font-family '#'
 - Font Awesome: Social media icons
 - Am I Responsive:
 
@@ -165,7 +165,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   3. From the source section drop-down menu, select the 'Main' branch.
   4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-<!-- The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html  -->
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 # Credits
 
@@ -180,11 +180,11 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 
 Links have been provided for where the text from the following sections have been taken from:
 
-1. What is Buddhism? - [here](https://thebuddhistcentre.com/buddhism), 
+1. What is Buddhism? [LINK](https://thebuddhistcentre.com/buddhism), 
 
-2. Who was the Buddha? - [here](https://thebuddhistcentre.com/text/who-was-buddha)
+2. Who was the Buddha? [LINK](https://thebuddhistcentre.com/text/who-was-buddha)
 
-3. What is Meditation? - [here](https://thebuddhistcentre.com/text/meditation> )
+3. What is Meditation? [LINK](https://thebuddhistcentre.com/text/meditation> )
 
 ### Media
 
@@ -192,17 +192,17 @@ Images:
 
 All images were sources from pexels.com:
 
-Pink Lotus Flower - Photo Contributor: [Pixabay](https://www.pexels.com/photo/aquatic-bloom-blooming-blossom-158465/)
-Rock Formation - Photo Contributor: [nicollazzi xiong](https://www.pexels.com/photo/four-rock-formation-668353/)
-Woman Meditating - Photo Contributor: [Oluremi Adebayo](https://www.pexels.com/photo/woman-meditating-in-the-outdoors-2908175/)
-Monks Meditating - Photo Contributor: [Pixabay](https://www.pexels.com/photo/people-festival-sitting-freedom-50709/)
-Stack of Stones - Photo Contributor: [mali maeder](https://www.pexels.com/photo/stack-of-stones-1278952/)
-Woman Meditating in Bedroom - Photo Contributor: [Andrea Piacquadio](https://www.pexels.com/photo/woman-meditating-in-bedroom-3772612/)
-Buddha Statue - Photo Contributor: [David Bartus](https://www.pexels.com/photo/buddha-statue-2873473/)
-Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (https://www.pexels.com/photo/tibetan-singing-bowls-3543912/)
+- Pink Lotus Flower - Photo Contributor: [Pixabay](https://www.pexels.com/photo/aquatic-bloom-blooming-blossom-158465/)
+- Rock Formation - Photo Contributor: [nicollazzi xiong](https://www.pexels.com/photo/four-rock-formation-668353/)
+- Woman Meditating - Photo Contributor: [Oluremi Adebayo](https://www.pexels.com/photo/woman-meditating-in-the-outdoors-2908175/)
+- Monks Meditating - Photo Contributor: [Pixabay](https://www.pexels.com/photo/people-festival-sitting-freedom-50709/)
+- Stack of Stones - Photo Contributor: [mali maeder](https://www.pexels.com/photo/stack-of-stones-1278952/)
+- Woman Meditating in Bedroom - Photo Contributor: [Andrea Piacquadio](https://www.pexels.com/photo/woman-meditating-in-bedroom-3772612/)
+- Buddha Statue - Photo Contributor: [David Bartus](https://www.pexels.com/photo/buddha-statue-2873473/)
+- Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (https://www.pexels.com/photo/tibetan-singing-bowls-3543912/)
 
 Youtube Videos:
 
-[Metta Bahavana Meditation Video](https://www.youtube.com/watch?v=grJ2wh7nk-E)
-[Mindfulness of Breathing Meditation Video](https://www.youtube.com/watch?v=32elVeLKFAI)
+- [Metta Bahavana Meditation Video](https://www.youtube.com/watch?v=grJ2wh7nk-E)
+- [Mindfulness of Breathing Meditation Video](https://www.youtube.com/watch?v=32elVeLKFAI)
 

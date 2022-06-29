@@ -330,11 +330,11 @@ footer > p {
     }
 
     .information {
-        height: 420px;
+        height: 445px;
     }
     
     .text-left, .text-right {
-        height: 100px;
+        height: 125px;
         width: 90%;
         margin: 15px 5% 5px 5%;
         text-align: center;
@@ -348,7 +348,7 @@ footer > p {
     }
 
     #what-we-do {
-        height: 450px;
+        height: 525px;
     }
 
     #what-we-do h2 {
@@ -374,7 +374,7 @@ footer > p {
     footer > p {
         margin-left: 0;
         margin-top: 0;
-        padding-top: 30px;
+        padding-top: 15px;
         float: none;
         text-align: center;
     }
@@ -423,6 +423,40 @@ footer > p {
 
     .information-buddhism-small {
         height: 740px;
+    }
+
+    .img-right-buddhism, .img-left-buddhism {
+        height: 300px;
+    }
+
+}
+
+/* For smallest screen size from 300px wide and down*/
+
+@media screen and (max-width: 300px) {
+
+    #menu, #logo {
+        line-height: 30px;
+    }
+    
+    #menu li {
+        font-size: x-small;
+    }
+
+    .information-buddhism {
+        height: 1195px;
+    }
+
+    .text-left-buddhism, .text-right-buddhism {
+        height: 875px;
+    }
+
+    .information-buddhism-small {
+        height: 790px;
+    }
+
+    .text-left-buddhism-small, .text-right-buddhism-small {
+        height: 470px;
     }
 
     .img-right-buddhism, .img-left-buddhism {
