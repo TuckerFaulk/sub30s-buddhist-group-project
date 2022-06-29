@@ -1,108 +1,208 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sub30s Buddhist Group 
 
-Welcome TuckerFaulk,
+<!-- ![Am I responsive image](readme-assets/am-i-responsive.jpg) -->
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<hr>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+My idea for this project was to develop a concept website for the Sub30s Buddhist Group which I regularly attend. The purpose of the website is to provide some general information on the group (including What we do?, When we meet?, Where we meet?), an introduction into Buddhism and Meditation, and an oppertunity to get in touch to request further infromation.
 
-## Gitpod Reminders
+# Table of contents
+<!-- - [Design](#design)
+- [Features](#features)
+    - [Existing Features](#existing-features)
+        - [Navigation Bar](#navigation-bar)
+        - [Landing Page Banner](#landing-page-aurora-banner)
+        - [Landing Page](#landing-page)
+        - [Footer](#footer)
+        - [Fun Facts](#fun-facts-second-page)
+        - [Contact Page](#contact-third-page)
+            - [Thank You Page](#thank-you)
+        - [Future Features](#future-features)
+- [Testing](#testing)
+- [Credits](#credits) -->
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Design
 
-`python3 -m http.server`
+**Text & Background color**
 
-A blue button should appear to click: _Make Public_,
+I selected both the text and background colors to keep the website simple. I wanted to keep the main background white and introduce color into the website through the images used. I decided to use a light grey for the header and the footer to provide some contrast from the main sections.
 
-Another blue button should appear to click: _Open Browser_.
+<!-- ![Background color](readme-assets/background-color.jpg) ![Menu color before hover](readme-assets/menu-color.jpg) -->
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Features
 
-A blue button should appear to click: _Make Public_,
+## Existing Features:
 
-Another blue button should appear to click: _Open Browser_.
+### Navigation
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+A three navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons change with smaller screens -- these are as such located under the logo due to the smaller screen space available.
 
-To log into the Heroku toolbelt CLI:
+<!-- ![Navigation bar and logo](readme-assets/navigation.jpg) -->
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Home Page Hero Banner
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+A Hero Image is used on the Home Page (only) under the Header. The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
 
-------
+<!-- ![First hero banner](readme-assets/first-aurora-banner.jpg) -->
 
-## Release History
+### Home Page 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Main Section**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This page provides a brief explanation about 1) What the Aurora Borealis is 2) Where the best places are to see it and 3) When the best time to see it is
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Whilst the explanations are relatively brief, there is still a paragraph break in each section to make it easier to read. Every question (and answer) has been separated with its own textbox for easy reading and without overwhelming the user with one large paragraph of text. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Who we are?]()
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![What we do?]()
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![When we meet?]()
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Where to find us?]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Footer
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The footer section features a note that this site is for educational purposes only and links to four social media sites.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The note regarding this site being for educational purposes only has been included as I do not have the rights to some of the content and media used on the website. The content and media has been credited in this document.
 
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<!-- ![Social Media Links](readme-assets/social-links.jpg) -->
 
 ---
 
-Happy coding!
+## Buddhism and Meditation
+
+
+
+<!-- To provide some less scientific/more fun information for the user, I decided to add some "fun facts" about the Aurora on this page. 
+
+As this page does not contain any visuals I decided to add some atmospheric, subject-appropriate music instead, whilst reading more about the Aurora. The Track is called ‘Northern Lights’ and has been written specifically for this project. -->
+
+<!-- ![Sound cloud audio](readme-assets/sound-cloud.jpg) -->
+
+**Metta Bhavana and The Mindfulness of Breathing Meditation**
+
+
+<!-- ![Live cam link section](readme-assets/live-cams.jpg) -->
+
+## Get in Contact 
+
+This page allows the user an opportunity to get in contact with the group and find out more information.
+
+<!-- ![Contact form](readme-assets/contact-form.jpg) -->
+
+### Thank you
+
+<!-- Upon submitting the form the user will be redirected to a new page, which will thank them for signing up and that if they left a comment someone will respond within 48 hrs. No user information will be stored.
+
+![Thank you page](readme-assets/thank-you.jpg) -->
+
+## Future Features
+
+- Provide more infromation on Buddhism and Meditation
+- Gallery of Images from Group Events
+
+# Testing
+
+What and how was tested?
+
+It is noted that all of the links, videos, and the contact form (including the input fields requiring information before submitting) functioned as expected.
+
+Microsoft Edge and Google Chrome
+
+Google Chrome Dev Tools - Various Screen Sizes
+
+Buddhism and Meditation: Media Queries Section
+
+Detail other issues encountered and how I overcame them
+
+## Validator Testing
+
+- HTML: No errors were returned when passing through the official W3C validator
+
+<!-- ![W3C Validator](readme-assets/w3c-validator.jpg) -->
+
+- CSS: No errors were found when passing through the official (Jigsaw) validator
+
+<!-- ![W3C CSS Validator](readme-assets/w3c-css-validator.jpg) -->
+
+- Lighthouse (Accessibility Audit): The page achieved great performance:
+
+<!-- ![Lighthouse mobile report](readme-assets/lighthouse-mobile-report.jpg) -->
+
+### Unfixed Bugs
+
+I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large taking away from the design of the page.
+
+I plan to fix this in the future.
+
+### Languages Used
+
+- HTML5
+- CSS3
+
+### Libraries & Programs used:
+
+- Github: Store repositry
+- Gitpod: Create the html and css files
+- Google Fonts: Font-family 'Roboto Flex'
+- Font Awesome: Social media icons
+- Am I Responsive:
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+
+  1. In the GitHub repository, navigate to the Settings tab. 
+  2. From the settings tab, select the 'Pages' tab in the 'Code and Automation' section.
+  3. From the source section drop-down menu, select the 'Main' branch.
+  4. Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+<!-- The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html  -->
+
+# Credits
+
+<!-- I faced many challenges during this project and before I go into further details I wanted to thank the Slack community for all their great support and my Mentor [Martina](https://www.linkedin.com/in/martinaterlevic/) for her amazing support and helpful tips to take this project off the ground. 😃 -->
+
+As a starting point I looked at the Coders Coffee and Love Running projects.
+
+- From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
+- From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
+
+### Content
+
+Links have been provided for where the text from the following sections have been taken from:
+
+1. What is Buddhism? - [here](https://thebuddhistcentre.com/buddhism), 
+
+2. Who was the Buddha? - [here](https://thebuddhistcentre.com/text/who-was-buddha)
+
+3. What is Meditation? - [here](https://thebuddhistcentre.com/text/meditation> )
+
+### Media
+
+Images:
+
+All images were sources from pexels.com:
+
+Pink Lotus Flower - Photo Contributor: [Pixabay](https://www.pexels.com/photo/aquatic-bloom-blooming-blossom-158465/)
+Rock Formation - Photo Contributor: [nicollazzi xiong](https://www.pexels.com/photo/four-rock-formation-668353/)
+Woman Meditating - Photo Contributor: [Oluremi Adebayo](https://www.pexels.com/photo/woman-meditating-in-the-outdoors-2908175/)
+Monks Meditating - Photo Contributor: [Pixabay](https://www.pexels.com/photo/people-festival-sitting-freedom-50709/)
+Stack of Stones - Photo Contributor: [mali maeder](https://www.pexels.com/photo/stack-of-stones-1278952/)
+Woman Meditating in Bedroom - Photo Contributor: [Andrea Piacquadio](https://www.pexels.com/photo/woman-meditating-in-bedroom-3772612/)
+Buddha Statue - Photo Contributor: [David Bartus](https://www.pexels.com/photo/buddha-statue-2873473/)
+Tibetan Singing Bowls - Photo Contributor: [Magicbowls] (https://www.pexels.com/photo/tibetan-singing-bowls-3543912/)
+
+Youtube Videos:
+
+[Metta Bahavana Meditation Video](https://www.youtube.com/watch?v=grJ2wh7nk-E)
+[Mindfulness of Breathing Meditation Video](https://www.youtube.com/watch?v=32elVeLKFAI)
+
