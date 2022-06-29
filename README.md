@@ -42,13 +42,13 @@ I selected both the text and background colors to keep the website simple. I wan
 
 A three navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons change with smaller screens -- these are as such located under the logo due to the smaller screen space available.
 
-![Logo and Navigation Bar](readme-images/header.jpeg)
+![Logo and Navigation Bar](assets/readme-images/header.jpg)
 
 ### Home Page Hero Banner
 
 A Hero Image is used on the Home Page (only) under the Header. The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
 
-![Hero Image](readme-images/hero-image.jpeg)
+![Hero Image](assets/readme-images/hero-image.jpg)
 
 ### Home Page 
 
@@ -58,16 +58,16 @@ This page provides a brief explanation about 1) What the Aurora Borealis is 2) W
 
 Whilst the explanations are relatively brief, there is still a paragraph break in each section to make it easier to read. Every question (and answer) has been separated with its own textbox for easy reading and without overwhelming the user with one large paragraph of text. 
 
-![Who we are?](readme-images/who-we-are-section.jpeg)
+![Who we are?](assets/readme-images/who-we-are-section.jpg)
 
 
-![What we do?](readme-images/what-we-do-section.jpeg)
+![What we do?](assets/readme-images/what-we-do-section.jpg)
 
 
-![When we meet?](readme-images/when-we-meet-section.jpeg)
+![When we meet?](assets/readme-images/when-we-meet-section.jpg)
 
 
-![Where to find us?](readme-images/where-to-find-us-section.jpeg)
+![Where to find us?](assets/readme-images/where-to-find-us-section.jpg)
 
 ### Footer
 
@@ -75,7 +75,7 @@ The footer section features a note that this site is for educational purposes on
 
 The note regarding this site being for educational purposes only has been included as I do not have the rights to some of the content and media used on the website. The content and media has been credited in this document.
 
-![Footer](readme-images/footer.jpeg)
+![Footer](assets/readme-images/footer.jpg)
 
 ---
 
@@ -98,7 +98,7 @@ As this page does not contain any visuals I decided to add some atmospheric, sub
 
 This page allows the user an opportunity to get in contact with the group and find out more information.
 
-![Contact form](readme-assets/get-in-touch.jpg)
+![Contact form](assets/readme-images/get-in-touch.jpg)
 
 ### Thank you
 
@@ -177,11 +177,11 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 
 Links have been provided for where the text from the following sections have been taken from:
 
-1. [What is Buddhism?](https://thebuddhistcentre.com/buddhism)
+1. What is Buddhism? [Link]](https://thebuddhistcentre.com/buddhism)
 
-2. [Who was the Buddha?](https://thebuddhistcentre.com/text/who-was-buddha)
+2. Who was the Buddha? [Link](https://thebuddhistcentre.com/text/who-was-buddha)
 
-3. [What is Meditation?](https://thebuddhistcentre.com/text/meditation)
+3. What is Meditation? [Link](https://thebuddhistcentre.com/text/meditation)
 
 ### Media
 
