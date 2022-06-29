@@ -65,7 +65,6 @@ header a {
 #hero-image {
     height: 100%;
     width: 100%;
-
 }
 
 .hero-text {
@@ -258,3 +257,91 @@ footer > p {
     padding: 5px;
     border-radius: 5px;
 }
+
+/*  media queries */
+
+/* For smaller screen size from 950px wide and down*/
+
+@media screen and (max-width: 400px) {
+
+    header {
+        height: 100px;
+    }
+
+    header div {
+        height: 100px;
+    }
+
+    #menu, #logo {
+        line-height: 50px;
+    }
+
+    #menu li {
+        margin-right: 15px;
+    }
+
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+
+    .hero-text {
+        font-size: 100%;
+        bottom: 200px;
+    }
+
+    .information {
+        height: 420px;
+    }
+    
+    .text-left, .text-right {
+        height: 100px;
+        width: 100%;
+        margin: 15px 0 5px 0;
+        text-align: center;
+    }
+    
+    .img-right, .img-left {
+        height: 300px;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    #what-we-do {
+        height: 450px;
+    }
+
+    #what-we-do h2 {
+        width: 50%;
+    }
+
+    .left-about, .center-about, .right-about {
+        width: 80%;
+        margin: 5px auto;
+        float: none;
+    
+        position: relative;
+        left: 5px;
+        top: 25px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    .social-networks {
+        text-align: center;
+    }
+
+    .social-networks i {
+        float: none;
+        margin: 0 auto;
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
