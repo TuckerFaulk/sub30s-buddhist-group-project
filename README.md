@@ -1,10 +1,8 @@
 # Sub30s Buddhist Group 
 
-<!-- ![Am I responsive image](readme-assets/am-i-responsive.jpg) -->
-
-<hr>
-
 My idea for this project was to develop a concept website for the Sub30s Buddhist Group which I regularly attend. The purpose of the website is to provide some general information on the group (including What we do?, When we meet?, Where we meet?), an introduction into Buddhism and Meditation, and an oppertunity to get in touch to request further infromation.
+
+![Am I Responsive Image](assets/readme-images/am-i-responsive.jpg)
 
 # Table of contents
 <!-- - [Design](#design)
@@ -100,7 +98,7 @@ This page allows the user an opportunity to get in contact with the group and fi
 
 ![Contact form](assets/readme-images/get-in-touch.jpg)
 
-### Thank you
+<!-- ### Thank you -->
 
 <!-- Upon submitting the form the user will be redirected to a new page, which will thank them for signing up and that if they left a comment someone will respond within 48 hrs. No user information will be stored.
 
@@ -177,7 +175,7 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 
 Links have been provided for where the text from the following sections have been taken from:
 
-1. What is Buddhism? [Link]](https://thebuddhistcentre.com/buddhism)
+1. What is Buddhism? [Link](https://thebuddhistcentre.com/buddhism)
 
 2. Who was the Buddha? [Link](https://thebuddhistcentre.com/text/who-was-buddha)
 
