@@ -1,31 +1,35 @@
 # Sub30s Buddhist Group 
 
-My idea for this project was to develop a concept website for the Sub30s Buddhist Group which I regularly attend. The purpose of the website is to provide some general information on the group (including What we do?, When we meet?, Where we meet?), an introduction into Buddhism and Meditation, and an oppertunity to get in touch to request further infromation.
+My idea for this project was to develop a concept website for the Sub30s Buddhist Group which I regularly attend. The purpose of the website is to provide some general information on the group (including What we do?, When we meet?, Where we meet?), an introduction into Buddhism and Meditation, and an opportunity to get in touch to request further information.
 
 ![Am I Responsive Image](assets/readme-images/am-i-responsive.jpg)
 
 # Table of contents
-<!-- - [Design](#design)
+- [Design](#design)
 - [Features](#features)
-    - [Existing Features](#existing-features)
-        - [Navigation Bar](#navigation-bar)
-        - [Landing Page Banner](#landing-page-aurora-banner)
-        - [Landing Page](#landing-page)
-        - [Footer](#footer)
-        - [Fun Facts](#fun-facts-second-page)
-        - [Contact Page](#contact-third-page)
-            - [Thank You Page](#thank-you)
-        - [Future Features](#future-features)
+  - [Existing Features](#existing-features)
+    - [Languages Used](#languages-used)
+    - [Navigation](#navigation)
+    - [Home Page Hero Image](#home-page-hero-image)
+    - [Home Page](#home-page)
+    - [Footer](#footer)
+    - [Buddhism and Meditation](#buddhism-and-meditation)
+    - [Get in Touch](#get-in-touch)
+  - [Future Features](#future-features)
 - [Testing](#testing)
-- [Credits](#credits) -->
+  - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+  - [Libraries & Programs Used](#libraries-and-programs-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
 # Design
 
 **Text & Background color**
 
 I selected both the text and background colors to keep the website simple. I wanted to keep the main background white and introduce color into the website through the images used. I decided to use a light grey for the header and the footer to provide some contrast from the main sections.
-
-<!-- ![Background color](readme-assets/background-color.jpg) ![Menu color before hover](readme-assets/menu-color.jpg) -->
 
 # Features
 
@@ -42,29 +46,35 @@ A three navigation buttons (one per page) have been provided in the top right se
 
 ![Logo and Navigation Bar](assets/readme-images/header.jpg)
 
-### Home Page Hero Banner
+### Home Page Hero Image
 
 A Hero Image is used on the Home Page (only) under the Header. The text over the Hero Image, 'Buddha - Dharma - Sangha', has been added to break up the image and has been included to improve the design. 'Buddha - Dharma - Sangha' are the Three Jewels of Buddhism and are an important part of the teachings.
 
 ![Hero Image](assets/readme-images/hero-image.jpg)
 
-### Home Page 
-
-**Main Section**
+### Home Page
 
 This page provides all the information a user will need about the group. Each of the questions a user may have about the group have been broken into sections to make it easy to read. This section has been kept simple and to the point.
+
+#### Who we are?
 
 This section has been placed first to provide some context about the page and what the group is about.
 
 ![Who we are?](assets/readme-images/who-we-are-section.jpg)
 
-This section has been added to provide the user with information on what we do during group sessions. Headers have been used to simply state what takes place with a small explaination underneath.
+#### What we do?
+
+This section has been added to provide the user with information on what we do during group sessions. Headers have been used to simply state what takes place with a small explanation underneath.
 
 ![What we do?](assets/readme-images/what-we-do-section.jpg)
+
+#### When we meet?
 
 This section details the times that the group meets.
 
 ![When we meet?](assets/readme-images/when-we-meet-section.jpg)
+
+#### Where to find us?
 
 This sections details where the group meets. A postal address has been detailed, with a Google Maps tile for a visual for the location.
 
@@ -88,7 +98,7 @@ Although the home page provides details of the group, I thought it was important
 
 ![What is Meditation?](assets/readme-images/what-is-meditation.jpg)
 
-I also want to included some information on the meditations which take place during the group sessions. Instead of image tiles for these sections, I thought it would be better to include videos of the Meditations for users to use for practice. These videos have not been set to autoplay and controls have been provided for good user experience. Screenshots of these sections have been provided below:
+I also want to include some information on the meditations which take place during the group sessions. Instead of image tiles for these sections, I thought it would be better to include videos of the Meditations for users to use for practice. These videos have not been set to autoplay and controls have been provided for good user experience. Screenshots of these sections have been provided below:
 
 ![What is Metta Bhavana Meditation?](assets/readme-images/what-is-metta-bhavana.jpg)
 
@@ -102,7 +112,7 @@ This page allows the user an opportunity to get in contact with the group and fi
 
 ## Future Features
 
-- Provide more infromation on Buddhism and Meditation
+- Provide more information on Buddhism and Meditation
 - Gallery of Images from Group Events
 
 # Testing
@@ -115,11 +125,11 @@ Microsoft Edge and Google Chrome
 
 Google Chrome Dev Tools - Various Screen Sizes
 
-Buddhism and Meditation: Media Queries Section
+<!-- Buddhism and Meditation: Media Queries Section
 
 Detail other issues encountered and how I overcame them
 
-- Design was supposed to be simple to reduce on css coding.
+- Design was supposed to be simple to reduce on css coding. -->
 
 ## Validator Testing
 
@@ -131,27 +141,30 @@ Detail other issues encountered and how I overcame them
 
 ![W3C CSS Validator](assets/readme-images/css-checker.jpg)
 
-- Lighthouse (Accessibility Audit): The page achieved great accessibility performance:
+- Lighthouse (Accessibility Audit): The page achieved a great accessibility performance:
 
 ![Lighthouse Accessibility Audit](assets/readme-images/lighthouse-checker.jpg)
 
-### Unfixed Bugs
+NB: Although the above screenshots only shows the results of the home page, no errors were found on the other pages of the site and they also achieved great accessibility performance.
 
-<!-- I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large taking away from the design of the page. -->
+## Unfixed Bugs
 
-I plan to fix this in the future.
+I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large. I think that due to the way that I have designed the page by using similar classes for the text tiles to reduce on CSS coding, I had not anticipated that where there are larger blocks of text, that these sections needed to be larger for smaller screens.
 
-### Libraries & Programs used:
+I do not think that this takes too much away from the design of the website, and I am happy with how it is, but I do plan to spend some more time on website design in the the future, so I can better plan before a project to avoid this.
 
-- Github: Store repositry
+## Libraries and Programs Used
+
+- Github: Store Repository
 - Gitpod: Create the html and css files
 - Google Fonts: Font-family 'Raleway' and 'Ubuntu'
-- Google Chrome Dev Tools: To aid the intial styling for media queries and testing at various screen sizes
-- Microsoft Edge: Site testing on an alternitive browser
+- Google Chrome Dev Tools: To aid the initial styling for media queries and testing at various screen sizes
+- Microsoft Edge: Site testing on an alternative browser
+- Microsoft OneNote: Planning of the project
 - Font Awesome: Social media icons
 - Am I Responsive: Screenshots of the final project for the README file
 
-## Deployment
+# Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
 
@@ -164,16 +177,14 @@ The live link for the site can be found here - https://tuckerfaulk.github.io/sub
 
 # Credits
 
-I have really enjoyed the Code Institue course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I intially thought.
+I have really enjoyed the Code Institute course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I initially thought.
 
 As a starting point I looked at the Coders Coffee and Love Running projects.
 
 - From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
 - From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
 
-
-
-### Content
+## Content
 
 Links have been provided for where the text from the following sections have been taken from:
 
@@ -183,7 +194,7 @@ Links have been provided for where the text from the following sections have bee
 
 3. What is Meditation? [Link](https://thebuddhistcentre.com/text/meditation)
 
-### Media
+## Media
 
 Images:
 
