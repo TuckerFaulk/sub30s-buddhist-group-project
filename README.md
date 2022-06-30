@@ -110,6 +110,10 @@ This page allows the user an opportunity to get in contact with the group and fi
 
 ![Contact form](assets/readme-images/get-in-touch.jpg)
 
+A 'Thank You' page has been created to provide the users with feedback that there information has been submitted. This also sets out a timescale on when someone will get beck in contact with them.
+
+![Thank you](assets/readme-images/thank-you.jpg)
+
 ## Future Features
 
 - Provide more information on Buddhism and Meditation
