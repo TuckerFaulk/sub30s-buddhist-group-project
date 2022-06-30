@@ -125,13 +125,13 @@ Testing of the website has been complete by myself and a few friends and family 
 
 To ensure that the website worked on a different browser that what was used for the development (Google Chrome), testing also took place on Microsoft Edge.
 
-When I added a feature for the navigation bar to remain static whilst the user scrolled down the page, this intially created an issue with the top of the hero image hidden behind the navigation bar. This was fixed by putting the content of the <header> into a <div> and then styling the height of this to the same as the header section.
+When I added a feature for the navigation bar to remain static whilst the user scrolled down the page, this intially created an issue with the top of the hero image hidden behind the navigation bar. This was fixed by putting the content of the 'header' into a 'div' and then styling the height of this to the same as the header section.
 
 A significant amount of time was spent on Google Chrome Dev Tools both for the intial development, media queries styling and testing at various screen sizes. I found that I spent a lot of time with styling and testing of the 'Buddhism and Meditation' Section to ensure that the page worked well on smaller screens.
 
 After completing the first draft of the site, I run the code through the W3C HTML and CSS validators, and the Lighthouse Accessibility Audit. There were only minor changes required for the W3C HTML and CSS validators, but there were some performance improvement which were made as a result of the suggestions from the Lighthouse Accessibility Audit, including:
 
-  - I intially use <iframes> for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a <video> tag, this improved the performance of the site.
+  - I intially use 'iframes' for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a 'video' tag, this improved the performance of the site.
   - A minor improvement in the performance score was made from defining the fixed image height in the 'What we do?' section rather than having it as 100%.
 
 ## Validator Testing
