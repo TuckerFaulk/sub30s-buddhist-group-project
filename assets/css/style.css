@@ -116,7 +116,7 @@ header a {
     overflow: hidden;
 }
 
-/* What we do? Section */
+/* What we do? Section - Code initally used from the Coders Coffee Project, adjusted as appropriate */
 
 #what-we-do {
     background: url(../images/monks-meditating.jpg) no-repeat center center;
@@ -169,7 +169,7 @@ header a {
     top: 75px;
 }
 
-/* Footer */
+/* Footer - Code initally used from the Love Running Project, adjusted as appropriate */
 
 footer {
     height: 75px;
@@ -219,7 +219,7 @@ footer > p {
     margin-top: 25px;
 }
 
-/* Form */
+/* Form - Code initally used from the Love Running Project, adjusted as appropriate */
 
 .form-section {
     height: 850px;

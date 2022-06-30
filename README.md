@@ -117,19 +117,18 @@ This page allows the user an opportunity to get in contact with the group and fi
 
 # Testing
 
-What and how was tested?
+Testing of the website has been complete by myself and a few friends and family on various devices (Laptop, Tablet and Mobile). It is noted that all of the links, videos, and the contact form (including the input fields requiring information before submitting) functioned as expected.
 
-It is noted that all of the links, videos, and the contact form (including the input fields requiring information before submitting) functioned as expected.
+To ensure that the website worked on a different browser that what was used for the development (Google Chrome), testing also took place on Microsoft Edge.
 
-Microsoft Edge and Google Chrome
+When I added a feature for the navigation bar to remain static whilst the user scrolled down the page, this intially created an issue with the top of the hero image hidden behind the navigation bar. This was fixed by putting the content of the <header> into a <div> and then styling the height of this to the same as the header section.
 
-Google Chrome Dev Tools - Various Screen Sizes
+A significant amount of time was spent on Google Chrome Dev Tools both for the intial development, media queries styling and testing at various screen sizes. I found that I spent a lot of time with styling and testing of the 'Buddhism and Meditation' Section to ensure that the page worked well on smaller screens.
 
-<!-- Buddhism and Meditation: Media Queries Section
+After completing the first draft of the site, I run the code through the W3C HTML and CSS validators, and the Lighthouse Accessibility Audit. There were only minor changes required for the W3C HTML and CSS validators, but there were some performance improvement which were made as a result of the suggestions from the Lighthouse Accessibility Audit, including:
 
-Detail other issues encountered and how I overcame them
-
-- Design was supposed to be simple to reduce on css coding. -->
+  - I intially use <iframes> for my YouTube Videos. I found that by downloading the mp4 files and changing the element to a <video> tag, this improved the performance of the site.
+  - A minor improvement in the performance score was made from defining the fixed image height in the 'What we do?' section rather than having it as 100%.
 
 ## Validator Testing
 
@@ -152,6 +151,8 @@ NB: Although the above screenshots only shows the results of the home page, no e
 I have found that the spacing below some of the text sections of the 'Buddhism & Meditation' page are quite large. I think that due to the way that I have designed the page by using similar classes for the text tiles to reduce on CSS coding, I had not anticipated that where there are larger blocks of text, that these sections needed to be larger for smaller screens.
 
 I do not think that this takes too much away from the design of the website, and I am happy with how it is, but I do plan to spend some more time on website design in the the future, so I can better plan before a project to avoid this.
+
+It is also noted that the 'Performance' measure from the Lighthouse Accessibility Audit was relatively low (63/100). This is something which I am going to look into so I can improve on it for the future.
 
 ## Libraries and Programs Used
 
